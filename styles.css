@@ -1,11 +1,17 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 95vw;
+  align-items: center;
+}
+
 .container {
   display: grid;
   /* grid-template-columns: repeat(16, 1fr); */
   border: 2px solid black;
-}
-
-#btn-grid-div {
-  text-align: center;
+  width: 80%;
+  height: 80%;
 }
 
 #btn-grid-div button {
@@ -15,5 +21,6 @@
   padding: 15px 32px;
   text-align: center;
   font-weight: bold;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
